@@ -1,5 +1,17 @@
 @import url(header.css);
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    color: var(--light);
+}
+
 :root{
     --primary : #00A83D;
+    --white : #FFFFFF;
 }
