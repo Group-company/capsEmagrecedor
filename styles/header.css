@@ -11,15 +11,22 @@
 
 .header .title {
     text-align: center;
-    padding-top: 70px;
-    color: var(--white);
+    padding-top: 40px;
+    color: var(--light);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header .subtitle {
     text-align: center;
     padding-top: 34px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: var(--light);
 }
 
 .header .caps {
     text-align: center;
+    margin: 230px;
+    margin-left: -100px;
 }
+
+  
