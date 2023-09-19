@@ -11,7 +11,16 @@
     color: var(--light);
 }
 
+.container {
+    padding: 0 4rem;
+    @media(max-width: 768px) {
+      padding: 0 2rem;
+    }
+  }
+
 :root{
     --primary : #00A83D;
     --light : #FFFFFF;
 }
+
+  
