@@ -1,6 +1,8 @@
 .header {
     background-color: var(--primary);
-    height: 500px;
+    height: auto;
+    position: relative;
+    margin-bottom: 2rem;
 }
 
 .header .logo {
@@ -19,14 +21,37 @@
 .header .subtitle {
     text-align: center;
     padding-top: 34px;
-    font-family: 'Montserrat Alternates', sans-serif;
     color: var(--light);
+    padding-bottom: 16rem;
+}
+
+.header .subtitle h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
 }
 
 .header .caps {
-    text-align: center;
-    margin: 230px;
-    margin-left: -100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    margin-top: -14rem;
+    width: 600px;
 }
 
-  
+.header .waves {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+  @media (max-width: 768px) {
+    .header .caps {
+        width: 60%;
+    }
+
+    .header .waves {
+        width: 0;
+    }
+  }
