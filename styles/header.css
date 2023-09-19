@@ -1,0 +1,32 @@
+.header {
+    background-color: var(--primary);
+    height: 500px;
+}
+
+.header .logo {
+    text-align: center;
+    padding-top: 39px;
+    color: var(--white);
+}
+
+.header .title {
+    text-align: center;
+    padding-top: 40px;
+    color: var(--light);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .subtitle {
+    text-align: center;
+    padding-top: 34px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: var(--light);
+}
+
+.header .caps {
+    text-align: center;
+    margin: 230px;
+    margin-left: -100px;
+}
+
+  
