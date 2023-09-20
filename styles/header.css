@@ -54,4 +54,12 @@
     .header .waves {
         width: 0;
     }
+
+  }
+
+  @media (max-width: 500px) {
+    .header .title {
+        font-size: .8rem;
+        text-align: center;
+    }
   }
