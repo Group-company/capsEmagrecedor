@@ -12,6 +12,7 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
     color: var(--light);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
