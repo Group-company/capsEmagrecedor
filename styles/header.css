@@ -54,6 +54,9 @@
     .header .waves {
         width: 0;
     }
+    .header{
+        margin-bottom: 0 !important;
+    }
 
   }
 
