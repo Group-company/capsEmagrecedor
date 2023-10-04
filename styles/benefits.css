@@ -9,9 +9,16 @@
     .benefits .beneficios_title{
         text-align: center;
         padding-top: 70px;
-        color: var(--primary);
+        color: var(--dark);
         font-size: 30px;
         font-weight: 866;
+    }
+    .beneficios_subtitle{
+        text-align: center;
+        padding-top: 20px;
+        color: var(--dark);
+        font-size: 20px;
+        font-weight: 450;
     }
     
     .bolas{
@@ -25,99 +32,118 @@
     .bolas .ball-1{
         width: 200px;
         height: 200px;
-        border-radius: 7px;
-        background-color: var(--primary);
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
+    .bolas .ball-1 .text-info span{
+        color: var(--benefits-color-text);
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 20px;
+        font-weight: bold;
+    }
     .bolas .ball-1 .text-info{
-        color: var(--white);
-        font-size: 18px;
-        font-weight: 550;
-       
-        padding-top: 20px;
+        margin-top: 39px;
+        text-align: center;
     }
-    
-    .bolas .ball-1 .text-info2{
-        color: var(--white);
-        font-size: 18px;
-       
-        font-weight: 550;
+    .bolas .ball-1 .first-line{
+        white-space: nowrap;
     }
+
     
-    .bolas .ball-1 img{
-        margin-top: 20px;
-        width: 50px;
-        height: 50px;
+    .bolas .image-ball-1 img{
+        width: 115px;
+        height: 115px;
     }
-    
+    .bolas .image-ball-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 115px;
+        height: 115px;
+        border: 5px solid var(--primary);
+        border-radius: 100%;
+        padding: 80px;
+    }
+
     .bolas .ball-2{
-        width: 230px;
-        height: 230px;
-        border-radius: 7px;
-        background-color: var(--primary);
+        width: 200px;
+        height: 200px;
+        background-color: var();
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
+    .bolas .ball-2 .text-info span{
+        color: var(--benefits-color-text);
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 20px;
+        font-weight: bold;
+    }
     .bolas .ball-2 .text-info{
-        color: var(--white);
-        font-size: 18px;
-        font-weight: 550;
-        padding-top: 20px;
+        margin-top: 39px;
+        text-align: center;
+    }
+    .bolas .ball-2 .first-line{
+        white-space: nowrap;
     }
     
-    .bolas .ball-2 .text-info2{
-        color: var(--white);
-        font-size: 18px;
-        font-weight: 550;
+    .bolas .image-ball-2 img{
+        width: 115px;
+        height: 115px;
     }
-    
-    .bolas .ball-2 .text-info3{
-        color: var(--white);
-        font-size: 18px;
-        font-weight: 550;
+    .bolas .image-ball-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 115px;
+        height: 115px;
+        border: 5px solid var(--primary);
+        border-radius: 100%;
+        padding: 80px;
     }
-    
-    
-    .bolas .ball-2 img{
-        margin-top: 20px;
-        width: 50px;
-        height: 50px;
-    }
+
     
     .bolas .ball-3{
         width: 200px;
         height: 200px;
-        border-radius: 7px;
-        background-color: var(--primary);
+        background-color: var();
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    
+
+    .bolas .ball-3 .text-info span{
+        color: var(--benefits-color-text);
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 20px;
+        font-weight: bold;
+    }
     .bolas .ball-3 .text-info{
-        color: var(--white);
-        font-size: 18px;
-        font-weight: 550;
-        padding-top: 20px;
+        margin-top: 39px;
+        text-align: center;
+    }
+    .bolas .ball-3 .first-line{
+        white-space: nowrap;
     }
     
-    .bolas .ball-3 .text-info2{
-        color: var(--white);
-        font-size: 18px;
-        font-weight: 550;
+    .bolas .image-ball-3 img{
+        width: 115px;
+        height: 115px;
     }
-    
-    .bolas .ball-3 img{
-        width: 50px;
-        height: 50px;
-        margin-top: 20px;
+    .bolas .image-ball-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 115px;
+        height: 115px;
+        border: 5px solid var(--primary);
+        border-radius: 100%;
+        padding: 80px;
     }
+
     
     @media (max-width: 768px){
         .bolas{
