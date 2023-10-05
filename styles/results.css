@@ -29,11 +29,17 @@
   margin-top: 2rem;
 }
 .content-box .result {
-  height: 70px;
+  height: auto;
   width: 100%;
-  background-color: #ffffff;
+  background-color: var(--light);
   padding: 20px;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.content-box .result p{
+  color: var(--primary-200);
 }
 .content-box .result img {
   height: 100%;
@@ -54,4 +60,13 @@
   .results-box h3 {
     text-align: center;
   } 
+}
+
+@media(max-width: 400px) {
+  .content-box .result {
+   flex-direction: column;
+  }
+  .content-box .result p {
+    text-align: center;
+   }
 }
