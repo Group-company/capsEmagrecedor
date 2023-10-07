@@ -55,6 +55,9 @@
 .kits .kit .header-caps .h4-3 {
   font-size: 1rem!important;
 }
+.kits .kit .header-caps .h6-3 {
+  transform: translateY(-12px);
+  }
 
 .kits .kit .header-caps h6 {
   font-weight: 600;
