@@ -33,3 +33,15 @@
   --benefits-color-text: #8a8990;
   --gray: #d9d9d9;
 }
+
+.button {
+  margin-top: 1rem;
+  background-color: var(--primary);
+  padding: 1.2rem 1rem ;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4rem;
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
+}

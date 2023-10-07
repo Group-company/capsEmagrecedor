@@ -27,14 +27,15 @@
 }
 .kits .kit .last {
   background-color: var(--dark) !important;
+  padding-top: 3rem;
 }
 .kits .kit .last .best {
-  height: 40px;
+  height: 60px;
   background-color: #ff0000;
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateY(-2rem);
+  transform: translateY(-2.4rem);
   font-weight: bold;
   padding: 0 1rem;
   box-sizing: border-box;
@@ -43,19 +44,23 @@
   width: 80%;
   text-align: center;
   white-space: nowrap;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 .kits .kit .header-caps h4 {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
+}
+.kits .kit .header-caps .h4-3 {
+  font-size: 1rem!important;
 }
 
 .kits .kit .header-caps h6 {
   font-weight: 600;
   text-align: center;
   margin-top: 1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .kits .kit .image-container {
@@ -63,7 +68,6 @@
   height: 259px !important;
   flex-direction: column;
   align-items: center;
-  transform: translateY(-3rem);
 }
 .kits .kit .image-container img {
   height: 200px;
@@ -71,15 +75,6 @@
   object-fit: contain;
 }
 
-.kits .kit .image-container .button {
-  background-color: var(--primary-200);
-  padding: 1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.1rem;
-  transform: translateY(-2rem);
-  white-space: nowrap;
-}
 .kits .kit .footer-price {
   width: 100%;
   display: flex;
