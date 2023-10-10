@@ -73,10 +73,13 @@
   align-items: center;
 }
 .kits .kit .image-container img {
-  height: 200px;
-  width: 200px;
+  height: 500px;
+  width: 500px;
   object-fit: contain;
+  position: absolute;
+  bottom: 20%;
 }
+
 
 .kits .kit .footer-price {
   width: 100%;
