@@ -26,12 +26,12 @@
   position: relative;
 }
 .kits .kit .last {
-  background-color: var(--dark) !important;
+  background-color: var(--primary) !important;
   padding-top: 3rem;
 }
 .kits .kit .last .best {
   height: 60px;
-  background-color: #ff0000;
+  background-color: var(--gray);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +47,11 @@
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+.kits .kit .last .best p {
+  color: var(--primary);
+}
+
 .kits .kit .header-caps h4 {
   font-weight: bold;
   font-size: 1.5rem;
