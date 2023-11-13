@@ -36,7 +36,6 @@
   justify-content: center;
   align-items: center;
   transform: translateY(-2.4rem);
-  font-weight: bold;
   padding: 0 1rem;
   box-sizing: border-box;
   position: absolute;
@@ -139,6 +138,9 @@
   }
   .kits .footer-price span {
     font-size: 2rem!important;
+  }
+  .kits .kit .image-container img {
+  width: 100%;
   }
 }
 
